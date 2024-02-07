@@ -15,7 +15,7 @@ class RespectToLegends extends React.Component {
                     <img src={leg1} className="img-fluid" alt="..." style={{ width: '100%', height: '800px' }} />
                 </div>
 
-                <Footer/>
+                <Footer />
             </>
         )
     }

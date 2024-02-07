@@ -38,8 +38,8 @@ class Home extends React.Component {
                 <img src={temp1} className="d-block w-100" style={{ height: '600px', width: '100%' }} alt="Slide" />
                 <div className="container">
                   <div className="carousel-caption text-start">
-                    <h1>Example headline.</h1>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                    <h1>Music Heals lyrics kill</h1>
+                    <p> Lyrics in music can evoke strong emotions, convey messages, and influence listeners in various ways.</p>
                     <p><a className="btn btn-lg btn-primary" href="login">Sign up today</a></p>
                   </div>
                 </div>
@@ -49,8 +49,8 @@ class Home extends React.Component {
                 <img src={temp2} className="d-block w-100" style={{ height: '600px', width: '100%' }} alt="Slide" />
                 <div class="container">
                   <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <h1>Explor the world of music</h1>
+                    <p>Here are some ways you can start exploring and enjoying music.</p>
                     <p><a class="btn btn-lg btn-primary" href="upcomingevent">Learn more</a></p>
                   </div>
                 </div>
@@ -60,8 +60,8 @@ class Home extends React.Component {
                 <img src={temp3} className="d-block w-100" style={{ height: '600px', width: '100%' }} alt="Slide" />
                 <div class="container">
                   <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <h1>Support Emerging Artists</h1>
+                    <p>Discover new music by supporting emerging artists and independent musicians.</p>
                     <p><a class="btn btn-lg btn-primary" href="about">About</a></p>
                   </div>
                 </div>

@@ -28,7 +28,7 @@ class SignIn extends React.Component {
                                             <div className="col-12">
                                                 <label htmlFor="name" className="form-label">Name <span className="text-danger">*</span></label>
                                                 <div className="input-group">
-                                                    
+
                                                     <input type="text" className="form-control" name="email" id="email" required />
                                                 </div>
                                             </div>

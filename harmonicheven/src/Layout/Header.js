@@ -36,7 +36,15 @@ function Header() {
                 <Link className="nav-link" to="/about">About</Link>
               </li>
 
-             
+
+              <li className="nav-item align-center">
+                <Link className="nav-link" to="/shop">
+                  <FaShoppingCart />  Shop <span class="badge bg-secondary">New</span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </li>
 
               <li className="nav-item dropdown">
                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,17 +58,11 @@ function Header() {
                 </ul>
               </li>
 
-              <li className="nav-item align-center">
-                <Link className="nav-link" to="/shop">
-                  <FaShoppingCart />  Shop <span class="badge bg-secondary">New</span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </li>
+              
             </ul>
 
-       
+
+
             <div class="text-end">
               <button type="button" class="btn btn-outline-light me-2"><Link className="nav-link" to="/login">Login</Link></button>
             </div>

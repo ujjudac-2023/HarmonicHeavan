@@ -14,7 +14,7 @@ class About extends React.Component {
               <div class="col-12 col-md-10 col-lg-8">
                 <h3 class="fs-5 mb-2 text-secondary text-uppercase">About</h3>
                 <h2 class="display-5 mb-4">At our core, we prioritize pushing boundaries, embracing the unknown, and fostering a culture of continuous learning.</h2>
-                <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5">Connect Now</button>
+                <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5"><a style={{ textDecoration: 'none', color: 'inherit' }} href="contact">Contact Now</a></button>
               </div>
             </div>
           </div>
@@ -53,6 +53,68 @@ class About extends React.Component {
               </div>
             </div>
           </div>
+
+          <div className="container mt-4 pt-3" />
+          <div className="container mt-3 pt-3" />
+
+          <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0">
+              <div class="col-12 col-lg-6">
+                <div class="card bg-light p-3 m-0">
+                  <div class="row gy-3 gy-md-0 align-items-md-center">
+                    <div class="col-md-5">
+                      <img src="./assets/img/about-img-2.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-0">
+                        <h2 class="card-title h4 mb-3">Why Choose Us?</h2>
+                        <p class="card-text lead">With years of experience and deep industry knowledge, we have a proven track record of success and are pushing ourselves to stay ahead of the curve.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card bg-light p-3 m-0">
+                  <div class="row gy-3 gy-md-0 align-items-md-center">
+                    <div class="col-md-5">
+                      <img src="./assets/img/about-img-1.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-0">
+                        <h2 class="card-title h4 mb-3">Visionary Team</h2>
+                        <p class="card-text lead">With a team of visionary engineers, developers, and creative minds, we embark on a journey to transform complex challenges into ingenious technological solutions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="container mt-4 pt-3" />
+          <div className="container mt-3 pt-3" />
+
+          <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0">
+              <div class="col-12 col-lg-6">
+                <div class="card bg-light p-3 m-0">
+                  <div class="row gy-3 gy-md-0 align-items-md-center">
+                    <div class="col-md-5">
+                      <img src="./assets/img/about-img-2.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-0">
+                        <h2 class="card-title h4 mb-3">Why Choose Us?</h2>
+                        <p class="card-text lead">With years of experience and deep industry knowledge, we have a proven track record of success and are pushing ourselves to stay ahead of the curve.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </section>
         <Footer />
 
