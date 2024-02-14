@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="spring-boot-spring-security-jwt-authentication/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-boot-spring-security-jwt-authentication/src/main/java"/>
+	<classpathentry kind="lib" path="spring-boot-spring-security-jwt-authentication/target/spring-boot-security-jwt-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="spring-boot-spring-security-jwt-authentication/target/classes"/>
+</classpath>
