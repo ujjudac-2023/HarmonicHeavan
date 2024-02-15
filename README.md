@@ -15,7 +15,7 @@ To store and manage our vast collection of music data, we rely on the Hibernate 
 Explore, Discover, and Engage
 At Harmonic Heaven, we offer an extensive range of features to enhance your music discovery experience. Whether you're searching for your favorite artists, exploring new genres, or creating personalized playlists, our platform provides the tools you need to dive deep into the world of music. Discover hidden gems, connect with like-minded music enthusiasts, and embark on a musical journey like never before.
 
-Join Us in Harmonic Harmony
+
 Join us in Harmonic Harmony as we celebrate the universal language of music. Whether you're here to unwind, discover new tunes, or connect with fellow music lovers, Harmonic Heaven welcomes you with open arms. Immerse yourself in the melodies, rhythms, and harmonies that define our existence. Let's embark on this musical odyssey together, only at Harmonic Heaven.
 
 Harmonic Heaven - Where Every Note Matters.
