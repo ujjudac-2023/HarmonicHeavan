@@ -54,10 +54,10 @@ public class AuthTokenFilter extends OncePerRequestFilter {
   }
 
   private String parseJwt(HttpServletRequest request) {
-    String headerAuth = request.getHeader("Authorization");
+    String headerAuth = request.getHeader("X-Access-Token");    //Autherization
 
-    if (StringUtils.hasText(headerAuth) && headerAuth.startsWith("Bearer ")) {
-      return headerAuth.substring(7, headerAuth.length());
+    if (StringUtils.hasText(headerAuth)) {                      //X-Access-Token:
+      return headerAuth;
     }
 
     return null;

@@ -15,6 +15,7 @@ public class TestController {
     return "Public Content.";
   }
 
+ 
   @GetMapping("/user")
   @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
   public String userAccess() {
@@ -30,6 +31,6 @@ public class TestController {
   @GetMapping("/admin")
   @PreAuthorize("hasRole('ADMIN')")
   public String adminAccess() {
-    return "Admin Board.";
+    return "Ujjwal Mishra Admin";
   }
 }
